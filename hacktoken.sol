@@ -36,8 +36,8 @@ contract ERC20Interface {
 }
  
 contract FixedSupplyToken is ERC20Interface {
-    string public constant symbol = "FIXED";
-    string public constant name = "Example Fixed Supply Token";
+    string public constant symbol = "HACK";
+    string public constant name = "HACKATHON TOKEN";
     uint8 public constant decimals = 18;
     uint256 _totalSupply = 1000000;
     
